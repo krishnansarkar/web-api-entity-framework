@@ -1,0 +1,11 @@
+services:
+  employeedb:
+    image: mcr.microsoft.com/mssql/server:2022-latest  
+  employeeadminportal:
+    image: ${DOCKER_REGISTRY-}employeeadminportal
+    build:
+      context: .
+      dockerfile: EmployeeAdminPortal/Dockerfile
+
+volumes:
+  sql_employeedb:
