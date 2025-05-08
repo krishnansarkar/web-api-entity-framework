@@ -1,0 +1,9 @@
+﻿@ProductInventoryAPI_HostAddress = https://localhost:7297
+
+GET {{ProductInventoryAPI_HostAddress}}/
+
+###
+
+GET {{ProductInventoryAPI_HostAddress}}/products
+
+###
