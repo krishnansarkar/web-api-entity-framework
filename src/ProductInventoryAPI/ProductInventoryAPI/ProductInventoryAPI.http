@@ -7,3 +7,14 @@ GET {{ProductInventoryAPI_HostAddress}}/
 GET {{ProductInventoryAPI_HostAddress}}/products
 
 ###
+
+POST {{ProductInventoryAPI_HostAddress}}/products
+Content-Type: application/json
+
+{
+  "name": "Twix",
+  "quantity": "60",
+  "price": "1.50"
+}
+
+###
