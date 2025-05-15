@@ -1,8 +1,6 @@
-# web-api-entity-framework
-
 ## Quick Info
 
-CRUD backend made with .Net 8 and Entity Framework.
+CRUD API made with .Net 8 and Entity Framework.
 MS SQL Database.
 Containerized through Docker.
 
